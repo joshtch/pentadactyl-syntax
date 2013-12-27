@@ -7,7 +7,7 @@ http://code.google.com/p/dactyl/source/browse/pentadactyl/contrib/vim/?r=cf86984
 This is a pentadactyl syntax plugin for Vim by Doug Kearns. Use it for
 configuring your .pentadactylrc files.
 
-    cp -r syntax ~/.vim/
-    cp -r ftdetect ~/.vim/
+    cp -p syntax/pentadactyl.vim ~/.vim/syntax/
+    cp -p ftdetect/pentadactyl.vim ~/.vim/ftdetect/
 
 TODO: Configure to work with Pathogen/Vundle/NeoBundle
